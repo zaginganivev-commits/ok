@@ -1,0 +1,3177 @@
+<!doctype html>
+<html lang="ru" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABC AUTO — Официальный дилер автомобилей в Москве</title>
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              brand: {
+                red: '#CB0101',
+                redHover: '#B00000',
+                dark: '#1F1F1F',
+                footer: '#262626',
+                footerDark: '#1B1B1B',
+                grayBg: '#F7F7F7',
+                grayBorder: '#E5E7EB',
+                accent: '#E50914',
+              },
+            },
+            fontFamily: {
+              sans: ['Montserrat', 'Inter', 'Segoe UI', 'Roboto', 'sans-serif'],
+            },
+            maxWidth: {
+              site: '1400px',
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: 'Montserrat', sans-serif;
+      }
+      /* Custom range slider styling */
+      input[type='range'] {
+        -webkit-appearance: none;
+        appearance: none;
+        background: transparent;
+        cursor: pointer;
+      }
+      input[type='range']::-webkit-slider-runnable-track {
+        height: 4px;
+        background: #e5e7eb;
+        border-radius: 9999px;
+      }
+      input[type='range']::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 18px;
+        width: 18px;
+        border-radius: 50%;
+        background: #cb0101;
+        margin-top: -7px;
+        box-shadow: 0 0 0 4px rgba(203, 1, 1, 0.2);
+        transition: transform 0.15s ease-in-out;
+      }
+      input[type='range']::-webkit-slider-thumb:hover {
+        transform: scale(1.15);
+      }
+      /* Custom scrollbars */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #cb0101;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #b00000;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50 text-gray-800 antialiased selection:bg-red-500 selection:text-white">
+    <!-- ==================== 1. TOP UTILITY BAR ==================== -->
+    <header class="w-full bg-[#F7F7F7] border-b border-gray-200 text-xs text-gray-600">
+      <div class="max-w-site mx-auto px-4 py-2 flex flex-col md:flex-row items-center justify-between gap-2">
+        <div class="flex flex-wrap items-center justify-center md:justify-start gap-4 md:gap-8">
+          <div class="flex items-center gap-1.5 hover:text-red-600 transition cursor-pointer">
+            <svg class="w-4 h-4 text-brand-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+              <path
+                fill-rule="evenodd"
+                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                clip-rule="evenodd"
+              />
+            </svg>
+            <span>Россия, Москва, 38КМ МКАД, 6Бс1</span>
+          </div>
+          <div class="flex items-center gap-1.5">
+            <svg class="w-4 h-4 text-gray-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <circle cx="12" cy="12" r="10" stroke-width="2" />
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2" />
+            </svg>
+            <span>Время работы: с 08:00 до 21:00</span>
+          </div>
+        </div>
+
+        <div class="flex items-center gap-4">
+          <a
+            href="https://wa.me/78005519431"
+            target="_blank"
+            class="flex items-center gap-1.5 text-gray-700 hover:text-green-600 transition font-medium"
+          >
+            <div class="w-5 h-5 rounded-full bg-green-500 flex items-center justify-center text-white">
+              <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24">
+                <path
+                  d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"
+                />
+              </svg>
+            </div>
+            <span>Whatsapp</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==================== 2. MAIN HEADER ==================== -->
+    <div class="w-full bg-white border-b border-gray-100 py-3 shadow-sm">
+      <div class="max-w-site mx-auto px-4 flex items-center justify-between gap-4">
+        <!-- Logo & Hamburger -->
+        <div class="flex items-center gap-4">
+          <button
+            id="mobileMenuBtn"
+            class="p-2 rounded-lg text-gray-700 hover:text-brand-red hover:bg-gray-100 transition focus:outline-none"
+            aria-label="Меню"
+          >
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+
+          <!-- Logo -->
+          <a href="#" class="flex items-center gap-3 group">
+            <div
+              class="w-11 h-11 rounded-full bg-brand-dark flex items-center justify-center text-white font-black text-2xl relative shadow-md group-hover:scale-105 transition"
+            >
+              <span class="text-white">A</span>
+              <span class="absolute bottom-1 right-2 w-2.5 h-2.5 bg-brand-red rounded-full"></span>
+            </div>
+            <div class="flex flex-col">
+              <span class="text-2xl font-black tracking-tight text-gray-900 group-hover:text-brand-red transition"
+                >ABC AUTO</span
+              >
+              <span class="text-[9px] tracking-widest uppercase text-gray-400 font-semibold">ОФИЦИАЛЬНЫЙ ДИЛЕР</span>
+            </div>
+          </a>
+
+          <!-- Anniversary Badge -->
+          <div class="hidden xl:flex items-center gap-2 pl-4 border-l border-gray-200">
+            <span class="bg-brand-red text-white text-[11px] font-bold px-2 py-0.5 rounded-full shadow-sm"
+              >10 лет</span
+            >
+            <span class="text-xs font-bold text-gray-900 leading-tight">превосходим<br />ваши ожидания</span>
+          </div>
+        </div>
+
+        <!-- Middle Quick Links -->
+        <nav class="hidden lg:flex items-center gap-6 text-sm font-medium">
+          <a href="#quick-filter" class="text-brand-red hover:text-brand-redHover transition font-semibold"
+            >Подбор авто</a
+          >
+          <a href="#about" class="text-gray-700 hover:text-brand-red transition">О компании</a>
+          <a href="#services" class="text-gray-700 hover:text-brand-red transition">Техцентр</a>
+          <a href="#reviews" class="text-gray-700 hover:text-brand-red transition">Отзывы</a>
+          <a href="#contacts" class="text-gray-700 hover:text-brand-red transition">Контакты</a>
+        </nav>
+
+        <!-- Phone & Call Button -->
+        <div class="flex items-center gap-4 sm:gap-6">
+          <div class="hidden sm:flex items-center gap-3">
+            <div
+              class="w-10 h-10 rounded-full bg-brand-red flex items-center justify-center text-white shadow-md animate-pulse"
+            >
+              <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"
+                />
+              </svg>
+            </div>
+            <div class="flex flex-col text-left">
+              <a
+                href="tel:+78005519431"
+                class="text-base font-extrabold text-gray-900 hover:text-brand-red transition tracking-tight"
+                >+7 (800) 551-94-31</a
+              >
+              <a href="tel:+74952921867" class="text-xs text-gray-500 hover:text-gray-800 transition"
+                >+7 (495) 292-18-67</a
+              >
+            </div>
+          </div>
+
+          <button
+            onclick="openModal('callbackModal')"
+            class="bg-brand-red hover:bg-brand-redHover text-white text-xs sm:text-sm font-bold px-4 sm:px-6 py-2.5 rounded-lg shadow-sm hover:shadow transition transform active:scale-95 uppercase tracking-wide"
+          >
+            Обратный звонок
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ==================== 3. SECONDARY NAV BAR ==================== -->
+    <nav class="w-full bg-white border-b border-gray-200 sticky top-0 z-30 shadow-sm backdrop-blur-md bg-white/95">
+      <div class="max-w-site mx-auto px-4 flex items-center justify-between">
+        <!-- Dropdown Links -->
+        <div class="flex items-center gap-4 lg:gap-8 overflow-x-auto py-3 no-scrollbar text-xs md:text-sm font-bold">
+          <a
+            href="#catalog"
+            class="flex items-center gap-1.5 text-gray-900 hover:text-brand-red transition whitespace-nowrap"
+          >
+            <span>КАТАЛОГ АВТО</span>
+            <svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+          <a
+            href="#catalog"
+            class="flex items-center gap-1.5 text-gray-900 hover:text-brand-red transition whitespace-nowrap"
+          >
+            <span>АВТО С ПРОБЕГОМ</span>
+            <svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+          <a
+            href="#credit"
+            class="flex items-center gap-1.5 text-gray-900 hover:text-brand-red transition whitespace-nowrap"
+          >
+            <span>КРЕДИТ И РАССРОЧКА</span>
+            <svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+          <a
+            href="#offers"
+            class="flex items-center gap-1.5 text-gray-900 hover:text-brand-red transition whitespace-nowrap"
+          >
+            <span>СПЕЦПРЕДЛОЖЕНИЯ</span>
+            <svg class="w-3.5 h-3.5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M19 9l-7 7-7-7" />
+            </svg>
+          </a>
+          <a href="#credit" class="text-gray-900 hover:text-brand-red transition whitespace-nowrap"> ТАКСИ В КРЕДИТ </a>
+        </div>
+
+        <!-- Badges & Search -->
+        <div class="flex items-center gap-5 pl-4">
+          <!-- Favorite -->
+          <button class="relative text-gray-700 hover:text-brand-red transition" aria-label="Избранное">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+              />
+            </svg>
+            <span
+              id="favCount"
+              class="absolute -top-1.5 -right-2 bg-brand-red text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center"
+              >10</span
+            >
+          </button>
+          <!-- Compare -->
+          <button class="relative text-gray-700 hover:text-brand-red transition" aria-label="Сравнение">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+              />
+            </svg>
+            <span
+              class="absolute -top-1.5 -right-2 bg-brand-red text-white text-[10px] font-bold w-4 h-4 rounded-full flex items-center justify-center"
+              >12</span
+            >
+          </button>
+          <!-- Search -->
+          <button class="text-gray-700 hover:text-brand-red transition" aria-label="Поиск">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Mobile Drawer Overlay -->
+    <div id="drawerOverlay" class="fixed inset-0 bg-black/50 z-50 hidden transition-opacity"></div>
+    <aside
+      id="mobileDrawer"
+      class="fixed top-0 left-0 bottom-0 w-80 bg-white z-50 transform -translate-x-full transition-transform duration-300 shadow-2xl flex flex-col justify-between"
+    >
+      <div class="p-5 overflow-y-auto">
+        <div class="flex items-center justify-between pb-4 border-b border-gray-200">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-full bg-brand-dark flex items-center justify-center text-white font-bold">
+              A
+            </div>
+            <span class="font-black text-lg">ABC AUTO</span>
+          </div>
+          <button id="closeDrawerBtn" class="p-2 text-gray-500 hover:text-red-600">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+          </button>
+        </div>
+        <nav class="mt-6 flex flex-col gap-4 text-sm font-semibold">
+          <a href="#catalog" class="py-2 border-b border-gray-100 flex justify-between items-center text-gray-800"
+            >Каталог авто <span class="text-gray-400">›</span></a
+          >
+          <a href="#catalog" class="py-2 border-b border-gray-100 flex justify-between items-center text-gray-800"
+            >Авто с пробегом <span class="text-gray-400">›</span></a
+          >
+          <a href="#credit" class="py-2 border-b border-gray-100 flex justify-between items-center text-gray-800"
+            >Кредит и рассрочка <span class="text-gray-400">›</span></a
+          >
+          <a href="#offers" class="py-2 border-b border-gray-100 flex justify-between items-center text-gray-800"
+            >Спецпредложения <span class="text-gray-400">›</span></a
+          >
+          <a href="#credit" class="py-2 border-b border-gray-100 flex justify-between items-center text-gray-800"
+            >Такси в кредит <span class="text-gray-400">›</span></a
+          >
+          <a href="#about" class="py-2 text-gray-600">О компании</a>
+          <a href="#reviews" class="py-2 text-gray-600">Отзывы</a>
+          <a href="#contacts" class="py-2 text-gray-600">Контакты</a>
+        </nav>
+      </div>
+      <div class="p-5 border-t border-gray-200 bg-gray-50">
+        <div class="text-xs text-gray-500 mb-1">Горячая линия 24/7:</div>
+        <a href="tel:+78005519431" class="text-lg font-black text-brand-red block mb-3">+7 (800) 551-94-31</a>
+        <button
+          onclick="openModal('callbackModal')"
+          class="w-full bg-brand-red text-white py-3 rounded-lg font-bold text-sm uppercase"
+        >
+          Заказать звонок
+        </button>
+      </div>
+    </aside>
+
+    <!-- ==================== 4. HERO SECTION ==================== -->
+    <section class="max-w-site mx-auto px-4 pt-4 pb-2">
+      <div
+        class="relative rounded-2xl overflow-hidden bg-gradient-to-r from-[#F0F2F5] via-[#E8ECEF] to-[#E2E6EA] border border-gray-200/80 shadow-sm min-h-[420px] md:min-h-[480px] flex items-center"
+      >
+        <!-- Background subtle skyline overlay -->
+        <div
+          class="absolute inset-0 opacity-15 pointer-events-none bg-[radial-gradient(#9ca3af_1px,transparent_1px)] [background-size:16px_16px]"
+        ></div>
+
+        <!-- Slider Arrow Left -->
+        <button
+          class="absolute left-3 md:left-6 z-20 w-11 h-11 rounded-full bg-white/80 hover:bg-white text-gray-800 shadow-md flex items-center justify-center transition active:scale-95"
+          aria-label="Предыдущий слайд"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <!-- Slider Arrow Right -->
+        <button
+          class="absolute right-3 md:right-6 z-20 w-11 h-11 rounded-full bg-white/80 hover:bg-white text-gray-800 shadow-md flex items-center justify-center transition active:scale-95"
+          aria-label="Следующий слайд"
+        >
+          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
+
+        <!-- Hero Content Grid -->
+        <div class="relative z-10 w-full px-8 md:px-16 py-10 grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
+          <!-- Text column -->
+          <div class="lg:col-span-5 text-left">
+            <div class="inline-block bg-brand-red text-white text-xs font-bold px-4 py-1.5 rounded-full mb-4 shadow">
+              Осталось всего 10 авто!
+            </div>
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-black text-gray-900 leading-[1.15] mb-4 tracking-tight">
+              Грандиозная распродажа <br class="hidden sm:inline" />тестового парка!
+            </h1>
+            <p class="text-lg md:text-xl text-gray-600 font-medium mb-6">Узнай свою цену!</p>
+            <div class="flex flex-wrap gap-4">
+              <a
+                href="#quick-filter"
+                class="bg-brand-red hover:bg-brand-redHover text-white text-sm font-bold px-7 py-3.5 rounded-lg shadow-md transition transform active:scale-95"
+              >
+                Подобрать авто
+              </a>
+              <button
+                onclick="openModal('callbackModal')"
+                class="bg-white hover:bg-gray-100 text-gray-900 border border-gray-300 text-sm font-bold px-6 py-3.5 rounded-lg shadow-sm transition"
+              >
+                Узнать скидку
+              </button>
+            </div>
+          </div>
+
+          <!-- Cars image column -->
+          <div class="lg:col-span-7 flex justify-center lg:justify-end relative">
+            <img
+              src="images/hero-cars.jpg"
+              alt="Грандиозная распродажа авто: Kia Rio, Toyota RAV4, Skoda Octavia"
+              class="w-full max-w-2xl object-contain drop-shadow-2xl select-none pointer-events-none transform hover:scale-[1.02] transition duration-500"
+            />
+          </div>
+        </div>
+
+        <!-- Slider Pagination Dots -->
+        <div class="absolute bottom-4 left-8 md:left-16 flex items-center gap-2 z-20">
+          <span
+            class="w-3.5 h-3.5 rounded-full border-2 border-brand-red bg-white flex items-center justify-center cursor-pointer"
+          >
+            <span class="w-1.5 h-1.5 rounded-full bg-brand-red"></span>
+          </span>
+          <span class="w-2.5 h-2.5 rounded-full bg-gray-400 hover:bg-gray-600 transition cursor-pointer"></span>
+          <span class="w-2.5 h-2.5 rounded-full bg-gray-400 hover:bg-gray-600 transition cursor-pointer"></span>
+          <span class="w-2.5 h-2.5 rounded-full bg-gray-400 hover:bg-gray-600 transition cursor-pointer"></span>
+          <span class="w-2.5 h-2.5 rounded-full bg-gray-400 hover:bg-gray-600 transition cursor-pointer"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 5. BRANDS FILTER & QUICK SELECTION ==================== -->
+    <section id="quick-filter" class="max-w-site mx-auto px-4 py-8">
+      <div class="bg-white rounded-2xl shadow-sm border border-gray-200/80 p-6 lg:p-8">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          <!-- Brands Grid (Col 1-8) -->
+          <div class="lg:col-span-8">
+            <h2 class="text-lg font-bold text-gray-900 mb-4 flex items-center gap-2">
+              <span class="w-2 h-5 bg-brand-red rounded-full inline-block"></span>
+              Популярные марки автомобилей
+            </h2>
+
+            <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-y-3 gap-x-2 text-sm">
+              <!-- Brand items with clean car emblems -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 hover:shadow-xs transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  KIA
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Kia</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  H
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Hyundai</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  Š
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Skoda</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  VW
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Volkswagen</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  T
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Toyota</span>
+              </div>
+
+              <!-- Row 2 -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  B
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Brilliance</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  C
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Changan</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  CH
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Chery</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  EX
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">CheryExeed</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  +
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Chevrolet</span>
+              </div>
+
+              <!-- Row 3 -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  ^
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Citroen</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  D
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Datsun</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  DF
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Dongfeng</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  H
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">DW Hower</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  1
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">FAW</span>
+              </div>
+
+              <!-- Row 4 -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  F
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Ford</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  FT
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Foton</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  G
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">GAC</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  GE
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Geely</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  GW
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Great Wall</span>
+              </div>
+
+              <!-- Row 5 -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  HM
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Haima</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  HV
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Haval</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  [H]
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Honda</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  J
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">JAC</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  L
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Lada</span>
+              </div>
+
+              <!-- Row 6 -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  LF
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Lifan</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  M
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Mazda</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  ◆
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Mitsubishi</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  N
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Nissan</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  O
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Opel</span>
+              </div>
+
+              <!-- Row 7 -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  P
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Peugeot</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  R
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Ravon</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  ◇
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Renault</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  SY
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">SsangYong</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  S
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Suzuki</span>
+              </div>
+
+              <!-- Row 8 -->
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  U
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">UAZ</span>
+              </div>
+              <div
+                class="brand-badge flex items-center gap-2.5 p-2 rounded-lg hover:bg-gray-50 transition cursor-pointer group"
+              >
+                <div
+                  class="w-6 h-6 rounded-full bg-gray-100 group-hover:bg-red-50 text-gray-700 group-hover:text-brand-red flex items-center justify-center font-bold text-xs"
+                >
+                  Z
+                </div>
+                <span class="font-medium text-gray-800 group-hover:text-brand-red">Zotye</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Selector Card (Col 9-12) -->
+          <div class="lg:col-span-4 border-t lg:border-t-0 lg:border-l border-gray-200 lg:pl-8 pt-6 lg:pt-0">
+            <h3 class="text-xl font-extrabold text-gray-900 mb-6">Быстрый подбор авто</h3>
+
+            <!-- Price Slider -->
+            <div class="mb-6">
+              <div class="flex items-center justify-between text-sm mb-2">
+                <span class="font-semibold text-gray-700">Цена</span>
+                <span id="priceRangeDisplay" class="font-bold text-gray-900">0 - 2.5 млн ₽</span>
+              </div>
+              <input
+                type="range"
+                id="priceRangeInput"
+                min="300000"
+                max="5000000"
+                step="50000"
+                value="2500000"
+                class="w-full"
+                oninput="updatePriceFilter(this.value)"
+              />
+              <div class="flex justify-between text-[10px] text-gray-400 mt-1">
+                <span>0</span>
+                <span>500т</span>
+                <span>1,1м</span>
+                <span>1,7м</span>
+                <span>2,3м</span>
+                <span>3м+</span>
+              </div>
+            </div>
+
+            <!-- Body Type & Transmission Dropdowns -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-1 gap-4 mb-6">
+              <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Тип кузова</label>
+                <div class="relative">
+                  <select
+                    class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 appearance-none focus:outline-none focus:ring-2 focus:ring-brand-red"
+                  >
+                    <option value="">Все кузова</option>
+                    <option value="sedan">Седан</option>
+                    <option value="suv">Внедорожник / Кроссовер</option>
+                    <option value="hatch">Хэтчбек</option>
+                    <option value="wagon">Универсал</option>
+                    <option value="liftback">Лифтбек</option>
+                  </select>
+                  <svg
+                    class="w-4 h-4 text-gray-400 absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
+
+              <div>
+                <label class="block text-xs font-semibold text-gray-500 mb-1">Коробка передач</label>
+                <div class="relative">
+                  <select
+                    class="w-full bg-gray-50 border border-gray-200 rounded-lg px-4 py-3 text-sm text-gray-800 appearance-none focus:outline-none focus:ring-2 focus:ring-brand-red"
+                  >
+                    <option value="">Любая коробка</option>
+                    <option value="at">Автомат (АКПП)</option>
+                    <option value="mt">Механика (МКПП)</option>
+                    <option value="cvt">Вариатор (CVT)</option>
+                    <option value="robot">Робот (РКПП)</option>
+                  </select>
+                  <svg
+                    class="w-4 h-4 text-gray-400 absolute right-3.5 top-1/2 -translate-y-1/2 pointer-events-none"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+
+            <!-- Red CTA Button -->
+            <button
+              class="w-full bg-brand-red hover:bg-brand-redHover text-white font-bold py-3.5 px-6 rounded-lg shadow-md transition transform active:scale-98 tracking-wide text-center uppercase text-sm flex items-center justify-center gap-2"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
+                />
+              </svg>
+              <span>Показать 73 авто</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 6. CAR CATALOG: "АВТОМОБИЛИ В НАЛИЧИИ С ПТС" ==================== -->
+    <section id="catalog" class="max-w-site mx-auto px-4 py-10">
+      <div class="text-center mb-10">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight">
+          Автомобили в наличии с ПТС
+        </h2>
+        <p class="text-sm text-gray-500 mt-2">Гарантия лучшей цены и юридической чистоты сделки</p>
+      </div>
+
+      <!-- Car Cards Grid: 6 cards matching exact design -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Template Car Card Functionally Repeated for 6 Cards -->
+
+        <!-- Card 1 -->
+        <article
+          class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between relative group"
+        >
+          <!-- Top Row: Title + Icons -->
+          <div>
+            <div class="flex items-start justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 leading-tight group-hover:text-brand-red transition">
+                  Skoda Octavia
+                </h3>
+                <span class="text-xs text-gray-500 font-medium">1.6 MPI MT Active</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-400">
+                <button
+                  onclick="toggleFavorite(this)"
+                  class="p-1 hover:text-brand-red transition"
+                  aria-label="В избранное"
+                >
+                  <svg class="w-5 h-5 heart-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </button>
+                <button class="p-1 hover:text-brand-red transition" aria-label="Сравнить">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <!-- Vehicle Visual Area with Badges -->
+            <div class="relative py-2 min-h-[170px] flex items-center justify-center">
+              <!-- Left benefit badges -->
+              <div class="absolute left-0 top-0 z-10 flex flex-col gap-1.5 text-[10px]">
+                <span class="bg-brand-red text-white font-bold px-2.5 py-0.5 rounded-full shadow-xs w-max">
+                  Предложение дня
+                </span>
+                <span class="bg-red-50 text-brand-red border border-red-200 font-bold px-2 py-0.5 rounded-full w-max">
+                  Выгода до 300 000 ₽
+                </span>
+
+                <div class="flex items-center gap-1 text-gray-600 mt-1 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🎁</span>
+                  <span>Оборудование в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛡</span>
+                  <span>КАСКО в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛞</span>
+                  <span>Комплект резины в подарок</span>
+                </div>
+              </div>
+
+              <!-- Car Image -->
+              <img
+                src="images/car-skoda.jpg"
+                alt="Skoda Octavia"
+                class="w-56 sm:w-64 object-contain ml-auto drop-shadow-md transform group-hover:scale-105 transition duration-300"
+              />
+            </div>
+
+            <!-- Pricing Row -->
+            <div class="flex items-baseline justify-between mt-4 pb-3 border-b border-gray-100">
+              <div>
+                <span class="text-xs text-gray-400 block font-medium">Стоимость</span>
+                <span class="text-xl font-black text-gray-900">от 1 615 000 ₽</span>
+              </div>
+              <div class="text-right">
+                <span class="text-[11px] text-gray-400 block font-medium">В кредит</span>
+                <span class="text-sm font-bold text-gray-800">от 115 000 ₽/мес.</span>
+              </div>
+            </div>
+
+            <!-- Specifications Chips -->
+            <div class="grid grid-cols-4 gap-1.5 py-3 text-center text-[11px] font-semibold text-gray-600">
+              <div class="bg-gray-100 rounded py-1 px-1">115 л.с.</div>
+              <div class="bg-gray-100 rounded py-1 px-1">5.3 л/100</div>
+              <div class="bg-gray-100 rounded py-1 px-1">189 км/ч</div>
+              <div class="bg-gray-100 rounded py-1 px-1">10,3 с.</div>
+            </div>
+          </div>
+
+          <!-- 3-Segment Button Row -->
+          <div class="flex items-center mt-2 rounded-lg overflow-hidden shadow-xs text-xs font-bold">
+            <button
+              onclick="openModal('bookingModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-red hover:bg-brand-redHover text-white py-2.5 px-2 text-center transition"
+            >
+              Резерв онлайн
+            </button>
+            <button
+              onclick="openModal('buyModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-dark hover:bg-black text-white py-2.5 px-2 text-center transition"
+            >
+              Купить
+            </button>
+            <button
+              onclick="openModal('detailModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-2 text-center transition"
+            >
+              Подробнее
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article
+          class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between relative group"
+        >
+          <div>
+            <div class="flex items-start justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 leading-tight group-hover:text-brand-red transition">
+                  Skoda Octavia
+                </h3>
+                <span class="text-xs text-gray-500 font-medium">1.6 MPI MT Active</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-400">
+                <button
+                  onclick="toggleFavorite(this)"
+                  class="p-1 hover:text-brand-red transition"
+                  aria-label="В избранное"
+                >
+                  <svg class="w-5 h-5 heart-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </button>
+                <button class="p-1 hover:text-brand-red transition" aria-label="Сравнить">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="relative py-2 min-h-[170px] flex items-center justify-center">
+              <div class="absolute left-0 top-0 z-10 flex flex-col gap-1.5 text-[10px]">
+                <span class="bg-brand-red text-white font-bold px-2.5 py-0.5 rounded-full shadow-xs w-max">
+                  Предложение дня
+                </span>
+                <span class="bg-red-50 text-brand-red border border-red-200 font-bold px-2 py-0.5 rounded-full w-max">
+                  Выгода до 300 000 ₽
+                </span>
+                <div class="flex items-center gap-1 text-gray-600 mt-1 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🎁</span>
+                  <span>Оборудование в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛡</span>
+                  <span>КАСКО в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛞</span>
+                  <span>Комплект резины в подарок</span>
+                </div>
+              </div>
+              <img
+                src="images/car-skoda.jpg"
+                alt="Skoda Octavia"
+                class="w-56 sm:w-64 object-contain ml-auto drop-shadow-md transform group-hover:scale-105 transition duration-300"
+              />
+            </div>
+
+            <div class="flex items-baseline justify-between mt-4 pb-3 border-b border-gray-100">
+              <div>
+                <span class="text-xs text-gray-400 block font-medium">Стоимость</span>
+                <span class="text-xl font-black text-gray-900">от 1 615 000 ₽</span>
+              </div>
+              <div class="text-right">
+                <span class="text-[11px] text-gray-400 block font-medium">В кредит</span>
+                <span class="text-sm font-bold text-gray-800">от 115 000 ₽/мес.</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-1.5 py-3 text-center text-[11px] font-semibold text-gray-600">
+              <div class="bg-gray-100 rounded py-1 px-1">115 л.с.</div>
+              <div class="bg-gray-100 rounded py-1 px-1">5.3 л/100</div>
+              <div class="bg-gray-100 rounded py-1 px-1">189 км/ч</div>
+              <div class="bg-gray-100 rounded py-1 px-1">10,3 с.</div>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-2 rounded-lg overflow-hidden shadow-xs text-xs font-bold">
+            <button
+              onclick="openModal('bookingModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-red hover:bg-brand-redHover text-white py-2.5 px-2 text-center transition"
+            >
+              Резерв онлайн
+            </button>
+            <button
+              onclick="openModal('buyModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-dark hover:bg-black text-white py-2.5 px-2 text-center transition"
+            >
+              Купить
+            </button>
+            <button
+              onclick="openModal('detailModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-2 text-center transition"
+            >
+              Подробнее
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article
+          class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between relative group"
+        >
+          <div>
+            <div class="flex items-start justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 leading-tight group-hover:text-brand-red transition">
+                  Skoda Octavia
+                </h3>
+                <span class="text-xs text-gray-500 font-medium">1.6 MPI MT Active</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-400">
+                <button
+                  onclick="toggleFavorite(this)"
+                  class="p-1 hover:text-brand-red transition"
+                  aria-label="В избранное"
+                >
+                  <svg class="w-5 h-5 heart-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </button>
+                <button class="p-1 hover:text-brand-red transition" aria-label="Сравнить">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="relative py-2 min-h-[170px] flex items-center justify-center">
+              <div class="absolute left-0 top-0 z-10 flex flex-col gap-1.5 text-[10px]">
+                <span class="bg-brand-red text-white font-bold px-2.5 py-0.5 rounded-full shadow-xs w-max">
+                  Предложение дня
+                </span>
+                <span class="bg-red-50 text-brand-red border border-red-200 font-bold px-2 py-0.5 rounded-full w-max">
+                  Выгода до 300 000 ₽
+                </span>
+                <div class="flex items-center gap-1 text-gray-600 mt-1 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🎁</span>
+                  <span>Оборудование в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛡</span>
+                  <span>КАСКО в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛞</span>
+                  <span>Комплект резины в подарок</span>
+                </div>
+              </div>
+              <img
+                src="images/car-skoda.jpg"
+                alt="Skoda Octavia"
+                class="w-56 sm:w-64 object-contain ml-auto drop-shadow-md transform group-hover:scale-105 transition duration-300"
+              />
+            </div>
+
+            <div class="flex items-baseline justify-between mt-4 pb-3 border-b border-gray-100">
+              <div>
+                <span class="text-xs text-gray-400 block font-medium">Стоимость</span>
+                <span class="text-xl font-black text-gray-900">от 1 615 000 ₽</span>
+              </div>
+              <div class="text-right">
+                <span class="text-[11px] text-gray-400 block font-medium">В кредит</span>
+                <span class="text-sm font-bold text-gray-800">от 115 000 ₽/мес.</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-1.5 py-3 text-center text-[11px] font-semibold text-gray-600">
+              <div class="bg-gray-100 rounded py-1 px-1">115 л.с.</div>
+              <div class="bg-gray-100 rounded py-1 px-1">5.3 л/100</div>
+              <div class="bg-gray-100 rounded py-1 px-1">189 км/ч</div>
+              <div class="bg-gray-100 rounded py-1 px-1">10,3 с.</div>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-2 rounded-lg overflow-hidden shadow-xs text-xs font-bold">
+            <button
+              onclick="openModal('bookingModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-red hover:bg-brand-redHover text-white py-2.5 px-2 text-center transition"
+            >
+              Резерв онлайн
+            </button>
+            <button
+              onclick="openModal('buyModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-dark hover:bg-black text-white py-2.5 px-2 text-center transition"
+            >
+              Купить
+            </button>
+            <button
+              onclick="openModal('detailModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-2 text-center transition"
+            >
+              Подробнее
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article
+          class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between relative group"
+        >
+          <div>
+            <div class="flex items-start justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 leading-tight group-hover:text-brand-red transition">
+                  Skoda Octavia
+                </h3>
+                <span class="text-xs text-gray-500 font-medium">1.6 MPI MT Active</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-400">
+                <button
+                  onclick="toggleFavorite(this)"
+                  class="p-1 hover:text-brand-red transition"
+                  aria-label="В избранное"
+                >
+                  <svg class="w-5 h-5 heart-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </button>
+                <button class="p-1 hover:text-brand-red transition" aria-label="Сравнить">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="relative py-2 min-h-[170px] flex items-center justify-center">
+              <div class="absolute left-0 top-0 z-10 flex flex-col gap-1.5 text-[10px]">
+                <span class="bg-brand-red text-white font-bold px-2.5 py-0.5 rounded-full shadow-xs w-max">
+                  Предложение дня
+                </span>
+                <span class="bg-red-50 text-brand-red border border-red-200 font-bold px-2 py-0.5 rounded-full w-max">
+                  Выгода до 300 000 ₽
+                </span>
+                <div class="flex items-center gap-1 text-gray-600 mt-1 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🎁</span>
+                  <span>Оборудование в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛡</span>
+                  <span>КАСКО в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛞</span>
+                  <span>Комплект резины в подарок</span>
+                </div>
+              </div>
+              <img
+                src="images/car-skoda.jpg"
+                alt="Skoda Octavia"
+                class="w-56 sm:w-64 object-contain ml-auto drop-shadow-md transform group-hover:scale-105 transition duration-300"
+              />
+            </div>
+
+            <div class="flex items-baseline justify-between mt-4 pb-3 border-b border-gray-100">
+              <div>
+                <span class="text-xs text-gray-400 block font-medium">Стоимость</span>
+                <span class="text-xl font-black text-gray-900">от 1 615 000 ₽</span>
+              </div>
+              <div class="text-right">
+                <span class="text-[11px] text-gray-400 block font-medium">В кредит</span>
+                <span class="text-sm font-bold text-gray-800">от 115 000 ₽/мес.</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-1.5 py-3 text-center text-[11px] font-semibold text-gray-600">
+              <div class="bg-gray-100 rounded py-1 px-1">115 л.с.</div>
+              <div class="bg-gray-100 rounded py-1 px-1">5.3 л/100</div>
+              <div class="bg-gray-100 rounded py-1 px-1">189 км/ч</div>
+              <div class="bg-gray-100 rounded py-1 px-1">10,3 с.</div>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-2 rounded-lg overflow-hidden shadow-xs text-xs font-bold">
+            <button
+              onclick="openModal('bookingModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-red hover:bg-brand-redHover text-white py-2.5 px-2 text-center transition"
+            >
+              Резерв онлайн
+            </button>
+            <button
+              onclick="openModal('buyModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-dark hover:bg-black text-white py-2.5 px-2 text-center transition"
+            >
+              Купить
+            </button>
+            <button
+              onclick="openModal('detailModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-2 text-center transition"
+            >
+              Подробнее
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article
+          class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between relative group"
+        >
+          <div>
+            <div class="flex items-start justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 leading-tight group-hover:text-brand-red transition">
+                  Skoda Octavia
+                </h3>
+                <span class="text-xs text-gray-500 font-medium">1.6 MPI MT Active</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-400">
+                <button
+                  onclick="toggleFavorite(this)"
+                  class="p-1 hover:text-brand-red transition"
+                  aria-label="В избранное"
+                >
+                  <svg class="w-5 h-5 heart-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </button>
+                <button class="p-1 hover:text-brand-red transition" aria-label="Сравнить">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="relative py-2 min-h-[170px] flex items-center justify-center">
+              <div class="absolute left-0 top-0 z-10 flex flex-col gap-1.5 text-[10px]">
+                <span class="bg-brand-red text-white font-bold px-2.5 py-0.5 rounded-full shadow-xs w-max">
+                  Предложение дня
+                </span>
+                <span class="bg-red-50 text-brand-red border border-red-200 font-bold px-2 py-0.5 rounded-full w-max">
+                  Выгода до 300 000 ₽
+                </span>
+                <div class="flex items-center gap-1 text-gray-600 mt-1 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🎁</span>
+                  <span>Оборудование в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛡</span>
+                  <span>КАСКО в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛞</span>
+                  <span>Комплект резины в подарок</span>
+                </div>
+              </div>
+              <img
+                src="images/car-skoda.jpg"
+                alt="Skoda Octavia"
+                class="w-56 sm:w-64 object-contain ml-auto drop-shadow-md transform group-hover:scale-105 transition duration-300"
+              />
+            </div>
+
+            <div class="flex items-baseline justify-between mt-4 pb-3 border-b border-gray-100">
+              <div>
+                <span class="text-xs text-gray-400 block font-medium">Стоимость</span>
+                <span class="text-xl font-black text-gray-900">от 1 615 000 ₽</span>
+              </div>
+              <div class="text-right">
+                <span class="text-[11px] text-gray-400 block font-medium">В кредит</span>
+                <span class="text-sm font-bold text-gray-800">от 115 000 ₽/мес.</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-1.5 py-3 text-center text-[11px] font-semibold text-gray-600">
+              <div class="bg-gray-100 rounded py-1 px-1">115 л.с.</div>
+              <div class="bg-gray-100 rounded py-1 px-1">5.3 л/100</div>
+              <div class="bg-gray-100 rounded py-1 px-1">189 км/ч</div>
+              <div class="bg-gray-100 rounded py-1 px-1">10,3 с.</div>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-2 rounded-lg overflow-hidden shadow-xs text-xs font-bold">
+            <button
+              onclick="openModal('bookingModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-red hover:bg-brand-redHover text-white py-2.5 px-2 text-center transition"
+            >
+              Резерв онлайн
+            </button>
+            <button
+              onclick="openModal('buyModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-dark hover:bg-black text-white py-2.5 px-2 text-center transition"
+            >
+              Купить
+            </button>
+            <button
+              onclick="openModal('detailModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-2 text-center transition"
+            >
+              Подробнее
+            </button>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article
+          class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col justify-between relative group"
+        >
+          <div>
+            <div class="flex items-start justify-between gap-2 mb-3">
+              <div>
+                <h3 class="text-xl font-bold text-gray-900 leading-tight group-hover:text-brand-red transition">
+                  Skoda Octavia
+                </h3>
+                <span class="text-xs text-gray-500 font-medium">1.6 MPI MT Active</span>
+              </div>
+              <div class="flex items-center gap-2 text-gray-400">
+                <button
+                  onclick="toggleFavorite(this)"
+                  class="p-1 hover:text-brand-red transition"
+                  aria-label="В избранное"
+                >
+                  <svg class="w-5 h-5 heart-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
+                    />
+                  </svg>
+                </button>
+                <button class="p-1 hover:text-brand-red transition" aria-label="Сравнить">
+                  <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                    />
+                  </svg>
+                </button>
+              </div>
+            </div>
+
+            <div class="relative py-2 min-h-[170px] flex items-center justify-center">
+              <div class="absolute left-0 top-0 z-10 flex flex-col gap-1.5 text-[10px]">
+                <span class="bg-brand-red text-white font-bold px-2.5 py-0.5 rounded-full shadow-xs w-max">
+                  Предложение дня
+                </span>
+                <span class="bg-red-50 text-brand-red border border-red-200 font-bold px-2 py-0.5 rounded-full w-max">
+                  Выгода до 300 000 ₽
+                </span>
+                <div class="flex items-center gap-1 text-gray-600 mt-1 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🎁</span>
+                  <span>Оборудование в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛡</span>
+                  <span>КАСКО в подарок</span>
+                </div>
+                <div class="flex items-center gap-1 text-gray-600 font-medium">
+                  <span class="w-4 h-4 rounded-full bg-gray-100 flex items-center justify-center text-brand-red">🛞</span>
+                  <span>Комплект резины в подарок</span>
+                </div>
+              </div>
+              <img
+                src="images/car-skoda.jpg"
+                alt="Skoda Octavia"
+                class="w-56 sm:w-64 object-contain ml-auto drop-shadow-md transform group-hover:scale-105 transition duration-300"
+              />
+            </div>
+
+            <div class="flex items-baseline justify-between mt-4 pb-3 border-b border-gray-100">
+              <div>
+                <span class="text-xs text-gray-400 block font-medium">Стоимость</span>
+                <span class="text-xl font-black text-gray-900">от 1 615 000 ₽</span>
+              </div>
+              <div class="text-right">
+                <span class="text-[11px] text-gray-400 block font-medium">В кредит</span>
+                <span class="text-sm font-bold text-gray-800">от 115 000 ₽/мес.</span>
+              </div>
+            </div>
+
+            <div class="grid grid-cols-4 gap-1.5 py-3 text-center text-[11px] font-semibold text-gray-600">
+              <div class="bg-gray-100 rounded py-1 px-1">115 л.с.</div>
+              <div class="bg-gray-100 rounded py-1 px-1">5.3 л/100</div>
+              <div class="bg-gray-100 rounded py-1 px-1">189 км/ч</div>
+              <div class="bg-gray-100 rounded py-1 px-1">10,3 с.</div>
+            </div>
+          </div>
+
+          <div class="flex items-center mt-2 rounded-lg overflow-hidden shadow-xs text-xs font-bold">
+            <button
+              onclick="openModal('bookingModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-red hover:bg-brand-redHover text-white py-2.5 px-2 text-center transition"
+            >
+              Резерв онлайн
+            </button>
+            <button
+              onclick="openModal('buyModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-brand-dark hover:bg-black text-white py-2.5 px-2 text-center transition"
+            >
+              Купить
+            </button>
+            <button
+              onclick="openModal('detailModal', 'Skoda Octavia 1.6 MPI MT Active')"
+              class="flex-1 bg-gray-500 hover:bg-gray-600 text-white py-2.5 px-2 text-center transition"
+            >
+              Подробнее
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Show More Red Button -->
+      <div class="text-center mt-10">
+        <button
+          onclick="loadMoreCars(this)"
+          class="bg-brand-red hover:bg-brand-redHover text-white font-extrabold text-sm py-3.5 px-12 rounded-lg shadow-md hover:shadow-lg transition transform active:scale-95 uppercase tracking-wider"
+        >
+          Показать еще
+        </button>
+      </div>
+    </section>
+
+    <!-- ==================== 7. SECTION: "НАШИ ПОДБОРКИ" ==================== -->
+    <section class="max-w-site mx-auto px-4 py-10">
+      <div class="flex items-center justify-between mb-6">
+        <div class="flex items-center gap-3">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">Наши подборки</h2>
+          <span class="bg-brand-red text-white text-xs font-bold px-3 py-1 rounded-full">Все подборки</span>
+        </div>
+        <!-- Slider Arrows -->
+        <div class="flex items-center gap-2">
+          <button
+            class="w-9 h-9 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 flex items-center justify-center transition"
+            aria-label="Назад"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button
+            class="w-9 h-9 rounded-lg bg-brand-red hover:bg-brand-redHover text-white flex items-center justify-center transition"
+            aria-label="Вперед"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Card 1: Семейные автомобили -->
+        <div
+          class="group relative rounded-2xl overflow-hidden shadow-md h-72 md:h-80 flex flex-col justify-end p-6 transition transform hover:-translate-y-1 hover:shadow-xl duration-300"
+        >
+          <img
+            src="images/selection-family.jpg"
+            alt="Семейные автомобили"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
+          <div class="relative z-10 flex items-center justify-between gap-4">
+            <h3 class="text-white font-bold text-lg md:text-xl leading-tight">Семейные<br />автомобили</h3>
+            <button
+              class="bg-brand-red hover:bg-brand-redHover text-white font-bold text-xs uppercase px-5 py-2.5 rounded-lg shadow transition"
+            >
+              Посмотреть
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 2: Автомобили для путешествий -->
+        <div
+          class="group relative rounded-2xl overflow-hidden shadow-md h-72 md:h-80 flex flex-col justify-end p-6 transition transform hover:-translate-y-1 hover:shadow-xl duration-300"
+        >
+          <img
+            src="images/selection-travel.jpg"
+            alt="Автомобили для путешествий"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
+          <div class="relative z-10 flex items-center justify-between gap-4">
+            <h3 class="text-white font-bold text-lg md:text-xl leading-tight">Автомобили для<br />путешествий</h3>
+            <button
+              class="bg-brand-red hover:bg-brand-redHover text-white font-bold text-xs uppercase px-5 py-2.5 rounded-lg shadow transition"
+            >
+              Посмотреть
+            </button>
+          </div>
+        </div>
+
+        <!-- Card 3: Городские автомобили -->
+        <div
+          class="group relative rounded-2xl overflow-hidden shadow-md h-72 md:h-80 flex flex-col justify-end p-6 transition transform hover:-translate-y-1 hover:shadow-xl duration-300"
+        >
+          <img
+            src="images/selection-city.jpg"
+            alt="Городские автомобили"
+            class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-500"
+          />
+          <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/30 to-transparent"></div>
+          <div class="relative z-10 flex items-center justify-between gap-4">
+            <h3 class="text-white font-bold text-lg md:text-xl leading-tight">Городские<br />автомобили</h3>
+            <button
+              class="bg-brand-red hover:bg-brand-redHover text-white font-bold text-xs uppercase px-5 py-2.5 rounded-lg shadow transition"
+            >
+              Посмотреть
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 8. BANNER: "ПЕРЕБЬЕМ ПРЕДЛОЖЕНИЯ ОТ КОНКУРЕНТОВ!" ==================== -->
+    <section class="max-w-site mx-auto px-4 py-8">
+      <div
+        class="bg-gradient-to-r from-[#241113] via-[#1F1F1F] to-[#171717] rounded-3xl p-6 sm:p-10 md:p-12 relative overflow-hidden shadow-2xl text-white border border-gray-800"
+      >
+        <!-- Background Radial Red Glow -->
+        <div
+          class="absolute -left-20 -top-20 w-80 h-80 rounded-full bg-red-600/20 blur-3xl pointer-events-none"
+        ></div>
+
+        <div class="relative z-10 grid grid-cols-1 lg:grid-cols-12 items-center gap-8">
+          <!-- Left: Boxing Glove Photo -->
+          <div class="lg:col-span-4 flex justify-center lg:justify-start">
+            <img
+              src="images/boxing-glove.jpg"
+              alt="Перебьем предложения от конкурентов"
+              class="w-64 md:w-80 object-contain drop-shadow-[0_15px_25px_rgba(203,1,1,0.35)] transform hover:scale-105 transition duration-300"
+            />
+          </div>
+
+          <!-- Right: Headline, Subheadline & Lead Form -->
+          <div class="lg:col-span-8 flex flex-col justify-center">
+            <h2
+              class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black uppercase tracking-tight text-white mb-3"
+            >
+              ПЕРЕБЬЕМ ПРЕДЛОЖЕНИЯ ОТ КОНКУРЕНТОВ!
+            </h2>
+            <p class="text-base sm:text-xl text-gray-300 font-medium mb-8">
+              Скидки <span class="text-red-500 font-extrabold">от 10 до 25%</span> на стоимость автомобиля
+            </p>
+
+            <form
+              onsubmit="handleFormSubmit(event, 'Заявка: Перебьем предложения')"
+              class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full max-w-xl"
+            >
+              <input
+                type="tel"
+                required
+                placeholder="+7 (___) ___-__-__"
+                class="flex-1 bg-white text-gray-900 placeholder-gray-400 px-5 py-4 rounded-xl font-medium focus:outline-none focus:ring-2 focus:ring-red-500 shadow"
+              />
+              <button
+                type="submit"
+                class="bg-brand-red hover:bg-brand-redHover text-white font-extrabold uppercase text-xs sm:text-sm tracking-wider px-8 py-4 rounded-xl shadow-lg transition active:scale-95 whitespace-nowrap"
+              >
+                Получить предложение
+              </button>
+            </form>
+            <p class="text-[11px] text-gray-400 mt-4 leading-normal">
+              Нажимая кнопку “Получить предложение” Вы даете согласие на обработку своих
+              <a href="#" class="underline hover:text-white">персональных данных</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 9. SECTION: "СПЕЦПРЕДЛОЖЕНИЯ" ==================== -->
+    <section id="offers" class="max-w-site mx-auto px-4 py-10">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">Спецпредложения</h2>
+        <!-- Slider Arrows -->
+        <div class="flex items-center gap-2">
+          <button
+            class="w-9 h-9 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 flex items-center justify-center transition"
+            aria-label="Назад"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button
+            class="w-9 h-9 rounded-lg bg-brand-red hover:bg-brand-redHover text-white flex items-center justify-center transition"
+            aria-label="Вперед"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Promo Card 1 -->
+        <div
+          class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition relative flex flex-col justify-between p-6 h-64"
+        >
+          <img
+            src="images/offer-1.jpg"
+            alt="Первый автомобиль"
+            class="absolute right-0 bottom-0 h-48 w-48 object-contain object-bottom pointer-events-none select-none"
+          />
+          <div class="relative z-10 max-w-[65%]">
+            <h3 class="text-xl font-extrabold text-gray-900 leading-tight mb-2">Первый автомобиль</h3>
+            <p class="text-xs text-gray-500 font-medium">1,9% по льготной ставке</p>
+          </div>
+          <div class="relative z-10">
+            <button
+              onclick="openModal('promoModal', 'Первый автомобиль')"
+              class="bg-gray-300/80 hover:bg-brand-red hover:text-white text-gray-800 text-xs font-bold py-2.5 px-5 rounded-lg transition"
+            >
+              Узнать больше
+            </button>
+          </div>
+        </div>
+
+        <!-- Promo Card 2 -->
+        <div
+          class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition relative flex flex-col justify-between p-6 h-64"
+        >
+          <img
+            src="images/offer-2.jpg"
+            alt="Семейный автомобиль"
+            class="absolute right-0 bottom-0 h-48 w-48 object-contain object-bottom pointer-events-none select-none"
+          />
+          <div class="relative z-10 max-w-[65%]">
+            <h3 class="text-xl font-extrabold text-gray-900 leading-tight mb-2">Семейный автомобиль</h3>
+            <p class="text-xs text-gray-500 font-medium">1,9% по льготной ставке</p>
+          </div>
+          <div class="relative z-10">
+            <button
+              onclick="openModal('promoModal', 'Семейный автомобиль')"
+              class="bg-gray-300/80 hover:bg-brand-red hover:text-white text-gray-800 text-xs font-bold py-2.5 px-5 rounded-lg transition"
+            >
+              Узнать больше
+            </button>
+          </div>
+        </div>
+
+        <!-- Promo Card 3 -->
+        <div
+          class="bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl border border-gray-200 overflow-hidden shadow-sm hover:shadow-md transition relative flex flex-col justify-between p-6 h-64"
+        >
+          <img
+            src="images/offer-3.jpg"
+            alt="Экспресс-кредит"
+            class="absolute right-0 bottom-0 h-48 w-48 object-contain object-bottom pointer-events-none select-none"
+          />
+          <div class="relative z-10 max-w-[65%]">
+            <h3 class="text-xl font-extrabold text-gray-900 leading-tight mb-2">Экспресс-кредит</h3>
+            <p class="text-xs text-gray-500 font-medium">1,9% по льготной ставке</p>
+          </div>
+          <div class="relative z-10">
+            <button
+              onclick="openModal('promoModal', 'Экспресс-кредит')"
+              class="bg-gray-300/80 hover:bg-brand-red hover:text-white text-gray-800 text-xs font-bold py-2.5 px-5 rounded-lg transition"
+            >
+              Узнать больше
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 10. SECTION: "ЗАЯВКА НА АВТОКРЕДИТ" (INTERACTIVE CALCULATOR) ==================== -->
+    <section id="credit" class="max-w-site mx-auto px-4 py-10">
+      <div class="bg-white rounded-3xl border border-gray-200/90 shadow-sm p-6 sm:p-10">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 mb-6 tracking-tight">Заявка на автокредит</h2>
+
+        <!-- Top Dropdowns Bar -->
+        <div class="bg-gray-100/90 rounded-2xl p-3 sm:p-4 mb-8 grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div class="relative">
+            <select
+              class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm font-semibold text-gray-800 appearance-none focus:outline-none focus:ring-2 focus:ring-brand-red"
+            >
+              <option value="skoda">Марка: Skoda</option>
+              <option value="kia">Марка: Kia</option>
+              <option value="hyundai">Марка: Hyundai</option>
+              <option value="toyota">Марка: Toyota</option>
+            </select>
+            <svg
+              class="w-4 h-4 text-gray-400 absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+
+          <div class="relative">
+            <select
+              class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm font-semibold text-gray-800 appearance-none focus:outline-none focus:ring-2 focus:ring-brand-red"
+            >
+              <option value="octavia">Модель: Octavia</option>
+              <option value="rapid">Модель: Rapid</option>
+              <option value="kodiaq">Модель: Kodiaq</option>
+            </select>
+            <svg
+              class="w-4 h-4 text-gray-400 absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+
+          <div class="relative">
+            <select
+              class="w-full bg-white border border-gray-200 rounded-xl px-4 py-3 text-sm font-semibold text-gray-800 appearance-none focus:outline-none focus:ring-2 focus:ring-brand-red"
+            >
+              <option value="active">Комплектация: 1.6 MPI MT Active</option>
+              <option value="ambition">Комплектация: 1.4 TSI AT Ambition</option>
+              <option value="style">Комплектация: 2.0 TSI DSG Style</option>
+            </select>
+            <svg
+              class="w-4 h-4 text-gray-400 absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+          <!-- Left Sliders & Car Sheet Graphic (Col 1-8) -->
+          <div class="lg:col-span-8 flex flex-col md:flex-row items-center gap-8">
+            <!-- Car under sheet -->
+            <div class="w-full md:w-5/12 flex flex-col items-center">
+              <img
+                src="images/loan-car.jpg"
+                alt="Автомобиль под покрывалом"
+                class="w-64 object-contain drop-shadow-md select-none"
+              />
+              <div class="flex items-center justify-between w-full mt-4 text-xs font-semibold text-gray-500">
+                <span class="bg-gray-100 rounded-full px-3 py-1">Первоначальный взнос 0%</span>
+                <span class="bg-gray-100 rounded-full px-3 py-1">КАСКО в подарок</span>
+              </div>
+            </div>
+
+            <!-- Interactive Sliders -->
+            <div class="w-full md:w-7/12 flex flex-col gap-6">
+              <!-- Slider 1: Loan Amount -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-xs font-semibold text-gray-500">Сумма кредита, руб</span>
+                  <span id="loanAmountDisplay" class="text-xl font-black text-gray-900">1 500 000 ₽</span>
+                </div>
+                <input
+                  type="range"
+                  id="loanAmountInput"
+                  min="200000"
+                  max="3500000"
+                  step="50000"
+                  value="1500000"
+                  class="w-full"
+                  oninput="calculateLoan()"
+                />
+                <div class="flex justify-between text-[10px] text-gray-400 mt-1 font-medium">
+                  <span>0</span>
+                  <span>500т</span>
+                  <span>1,1м</span>
+                  <span>1,7м</span>
+                  <span>2,3м</span>
+                  <span>3м+</span>
+                </div>
+              </div>
+
+              <!-- Slider 2: Term in months -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-xs font-semibold text-gray-500">Срок кредита, мес.</span>
+                  <span id="loanTermDisplay" class="text-xl font-black text-gray-900">36 мес.</span>
+                </div>
+                <input
+                  type="range"
+                  id="loanTermInput"
+                  min="6"
+                  max="84"
+                  step="6"
+                  value="36"
+                  class="w-full"
+                  oninput="calculateLoan()"
+                />
+                <div class="flex justify-between text-[10px] text-gray-400 mt-1 font-medium">
+                  <span>6</span>
+                  <span>12</span>
+                  <span>24</span>
+                  <span>36</span>
+                  <span>48</span>
+                  <span>60</span>
+                  <span>72</span>
+                  <span>84</span>
+                </div>
+              </div>
+
+              <!-- Initial Payment Input -->
+              <div>
+                <div class="flex items-center justify-between mb-2">
+                  <span class="text-xs font-semibold text-gray-500">Первоначальный взнос, руб</span>
+                  <span id="monthlyPaymentBadge" class="text-xs font-bold text-brand-red bg-red-50 px-2.5 py-1 rounded"
+                    >Платёж: ~45 200 ₽/мес.</span
+                  >
+                </div>
+                <input
+                  type="number"
+                  id="downPaymentInput"
+                  value="0"
+                  min="0"
+                  max="2000000"
+                  step="10000"
+                  class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3 text-sm font-semibold text-gray-800 focus:outline-none focus:ring-2 focus:ring-brand-red"
+                  oninput="calculateLoan()"
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Card: Benefit & Submit Form (Col 9-12) -->
+          <div class="lg:col-span-4 bg-white rounded-2xl border border-gray-200 shadow-xl p-6 sm:p-8">
+            <span class="text-xs font-bold text-gray-400 uppercase tracking-widest block mb-1">Ваша выгода</span>
+            <div class="text-3xl sm:text-4xl font-black text-brand-red mb-6">300 000 ₽</div>
+
+            <form
+              onsubmit="handleFormSubmit(event, 'Заявка на автокредит')"
+              class="flex flex-col gap-4"
+            >
+              <div>
+                <input
+                  type="text"
+                  required
+                  placeholder="Ваше имя"
+                  class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-800 font-medium focus:outline-none focus:ring-2 focus:ring-brand-red"
+                />
+              </div>
+              <div>
+                <input
+                  type="tel"
+                  required
+                  placeholder="Ваш телефон"
+                  class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-800 font-medium focus:outline-none focus:ring-2 focus:ring-brand-red"
+                />
+              </div>
+              <button
+                type="submit"
+                class="w-full bg-brand-red hover:bg-brand-redHover text-white font-extrabold uppercase text-xs sm:text-sm tracking-wider py-4 rounded-xl shadow-md transition active:scale-95"
+              >
+                Получить предложение
+              </button>
+            </form>
+            <p class="text-[10px] text-gray-400 text-center mt-3">
+              Нажимая кнопку "Получить предложение" Вы даете согласие на обработку своих
+              <a href="#" class="underline hover:text-gray-600">персональных данных</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 11. SECTION: "БАНКИ-ПАРТНЕРЫ" ==================== -->
+    <section class="max-w-site mx-auto px-4 py-8">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">Банки-партнеры</h2>
+        <!-- Slider Arrows -->
+        <div class="flex items-center gap-2">
+          <button
+            class="w-9 h-9 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 flex items-center justify-center transition"
+            aria-label="Назад"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button
+            class="w-9 h-9 rounded-lg bg-brand-red hover:bg-brand-redHover text-white flex items-center justify-center transition"
+            aria-label="Вперед"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+        <!-- Partner 1: Альфа Страхование -->
+        <div
+          class="bg-white rounded-2xl border border-gray-200/80 p-6 flex items-center justify-center shadow-xs hover:shadow-md transition h-28 group"
+        >
+          <div class="flex items-center gap-2 font-bold text-base text-gray-800">
+            <span class="w-8 h-8 rounded-full bg-red-600 text-white flex items-center justify-center font-black"
+              >А</span
+            >
+            <span class="group-hover:text-red-600 transition tracking-tight">АЛЬФА<br />СТРАХОВАНИЕ</span>
+          </div>
+        </div>
+
+        <!-- Partner 2: ВСК -->
+        <div
+          class="bg-white rounded-2xl border border-gray-200/80 p-6 flex items-center justify-center shadow-xs hover:shadow-md transition h-28 group"
+        >
+          <div class="flex items-center gap-2 font-bold text-base text-gray-800">
+            <span class="w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center font-black"
+              >ВСК</span
+            >
+            <span class="group-hover:text-blue-600 transition tracking-tight">СТРАХОВОЙ ДОМ</span>
+          </div>
+        </div>
+
+        <!-- Partner 3: Совкомбанк -->
+        <div
+          class="bg-white rounded-2xl border border-gray-200/80 p-6 flex items-center justify-center shadow-xs hover:shadow-md transition h-28 group"
+        >
+          <div class="flex items-center gap-2 font-bold text-base text-gray-800">
+            <span class="w-8 h-8 rounded-full bg-blue-900 text-red-500 flex items-center justify-center font-black"
+              >С</span
+            >
+            <span class="group-hover:text-blue-900 transition tracking-tight leading-tight"
+              >СОВКОМБАНК<br /><span class="text-xs text-gray-400">СТРАХОВАНИЕ</span></span
+            >
+          </div>
+        </div>
+
+        <!-- Partner 4: Росгосстрах -->
+        <div
+          class="bg-white rounded-2xl border border-gray-200/80 p-6 flex items-center justify-center shadow-xs hover:shadow-md transition h-28 group"
+        >
+          <div class="flex items-center gap-2 font-bold text-base text-gray-800">
+            <span class="w-8 h-8 rounded-full bg-red-700 text-white flex items-center justify-center font-black"
+              >Р</span
+            >
+            <span class="group-hover:text-red-700 transition tracking-tight font-black">РОСГОССТРАХ</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 12. SECTION: "НАМ ДОВЕРЯЮТ" ==================== -->
+    <section class="max-w-site mx-auto px-4 py-8">
+      <div class="flex items-center justify-between mb-6">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">Нам доверяют</h2>
+        <!-- Slider Arrows -->
+        <div class="flex items-center gap-2">
+          <button
+            class="w-9 h-9 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 flex items-center justify-center transition"
+            aria-label="Назад"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button
+            class="w-9 h-9 rounded-lg bg-brand-red hover:bg-brand-redHover text-white flex items-center justify-center transition"
+            aria-label="Вперед"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- 4 Review Portal Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-6">
+        <div class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-xs flex flex-col justify-between">
+          <div>
+            <h4 class="font-bold text-gray-900 text-sm">Сайт отзывик</h4>
+            <span class="text-xs text-gray-400">Название автосалона</span>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <span class="text-xs text-gray-500 font-medium">Рекомендуют 90%</span>
+            <div class="flex items-center gap-1.5">
+              <span class="text-yellow-400 text-xs">★★★★★</span>
+              <span class="bg-emerald-500 text-white font-bold text-xs px-2 py-0.5 rounded">4.5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-xs flex flex-col justify-between">
+          <div>
+            <h4 class="font-bold text-gray-900 text-sm">Сайт отзывик</h4>
+            <span class="text-xs text-gray-400">Название автосалона</span>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <span class="text-xs text-gray-500 font-medium">Рекомендуют 90%</span>
+            <div class="flex items-center gap-1.5">
+              <span class="text-yellow-400 text-xs">★★★★★</span>
+              <span class="bg-emerald-500 text-white font-bold text-xs px-2 py-0.5 rounded">4.5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-xs flex flex-col justify-between">
+          <div>
+            <h4 class="font-bold text-gray-900 text-sm">Сайт отзывик</h4>
+            <span class="text-xs text-gray-400">Название автосалона</span>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <span class="text-xs text-gray-500 font-medium">Рекомендуют 90%</span>
+            <div class="flex items-center gap-1.5">
+              <span class="text-yellow-400 text-xs">★★★★★</span>
+              <span class="bg-emerald-500 text-white font-bold text-xs px-2 py-0.5 rounded">4.5</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-2xl border border-gray-200/90 p-5 shadow-xs flex flex-col justify-between">
+          <div>
+            <h4 class="font-bold text-gray-900 text-sm">Сайт отзывик</h4>
+            <span class="text-xs text-gray-400">Название автосалона</span>
+          </div>
+          <div class="flex items-center justify-between mt-4">
+            <span class="text-xs text-gray-500 font-medium">Рекомендуют 90%</span>
+            <div class="flex items-center gap-1.5">
+              <span class="text-yellow-400 text-xs">★★★★★</span>
+              <span class="bg-emerald-500 text-white font-bold text-xs px-2 py-0.5 rounded">4.5</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Big Maps Review Banners (Yandex Maps & Google Maps) -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Yandex Maps Card -->
+        <div class="bg-white rounded-2xl border border-gray-200 p-6 flex items-center justify-between shadow-xs">
+          <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2">
+              <span class="w-8 h-8 rounded-full bg-red-600 text-white font-black flex items-center justify-center text-lg"
+                >Я</span
+              >
+              <div class="flex flex-col">
+                <span class="text-xl font-bold text-gray-900">Яндекс Карты</span>
+                <span class="text-xs text-gray-400">Название автосалона</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="text-right hidden sm:block">
+              <span class="text-xs text-gray-500 block">Рекомендуют 90%</span>
+              <span class="text-yellow-400 text-xs">★★★★★</span>
+            </div>
+            <div class="bg-emerald-500 text-white font-black text-2xl px-4 py-2 rounded-xl shadow-xs">4.5</div>
+          </div>
+        </div>
+
+        <!-- Google Maps Card -->
+        <div class="bg-white rounded-2xl border border-gray-200 p-6 flex items-center justify-between shadow-xs">
+          <div class="flex items-center gap-4">
+            <div class="flex items-center gap-2">
+              <div class="w-8 h-8 rounded-full bg-blue-500 text-white font-black flex items-center justify-center text-lg">
+                G
+              </div>
+              <div class="flex flex-col">
+                <span class="text-xl font-bold text-gray-900">Google Maps</span>
+                <span class="text-xs text-gray-400">Название автосалона</span>
+              </div>
+            </div>
+          </div>
+          <div class="flex items-center gap-4">
+            <div class="text-right hidden sm:block">
+              <span class="text-xs text-gray-500 block">Рекомендуют 90%</span>
+              <span class="text-yellow-400 text-xs">★★★★☆</span>
+            </div>
+            <div class="bg-emerald-500 text-white font-black text-2xl px-4 py-2 rounded-xl shadow-xs">4.1</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 13. SECTION: "ОТЗЫВЫ" (VIDEO REVIEWS) ==================== -->
+    <section id="reviews" class="max-w-site mx-auto px-4 py-10">
+      <div class="mb-6">
+        <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">Отзывы</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <!-- Video Review 1 -->
+        <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm flex flex-col justify-between">
+          <!-- Video Screen Frame -->
+          <div
+            onclick="openVideoModal('Сергей Васильев')"
+            class="bg-brand-dark h-56 relative flex items-center justify-center cursor-pointer group overflow-hidden"
+          >
+            <!-- Watermark / Silhouette Logo -->
+            <div
+              class="w-24 h-24 rounded-full border-4 border-gray-700/50 flex items-center justify-center text-gray-700/50 font-black text-4xl"
+            >
+              A
+            </div>
+            <!-- Red Glowing Play Button -->
+            <div
+              class="absolute w-14 h-14 rounded-full bg-brand-red flex items-center justify-center text-white shadow-xl group-hover:scale-110 transition duration-300"
+            >
+              <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M4.5 3.5v13l11-6.5-11-6.5z" />
+              </svg>
+            </div>
+          </div>
+          <!-- Review Content -->
+          <div class="p-6">
+            <h4 class="font-bold text-gray-900 text-base mb-2">Сергей Васильев</h4>
+            <p class="text-xs text-gray-500 leading-relaxed italic mb-4">
+              «Я нахожусь в салоне АЛЬТЕРА, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам
+              гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...»
+            </p>
+            <button
+              onclick="openVideoModal('Сергей Васильев')"
+              class="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold text-xs py-2.5 rounded-lg flex items-center justify-center gap-1 transition"
+            >
+              <span>Подробнее</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Video Review 2 -->
+        <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm flex flex-col justify-between">
+          <div
+            onclick="openVideoModal('Сергей Васильев')"
+            class="bg-brand-dark h-56 relative flex items-center justify-center cursor-pointer group overflow-hidden"
+          >
+            <div
+              class="w-24 h-24 rounded-full border-4 border-gray-700/50 flex items-center justify-center text-gray-700/50 font-black text-4xl"
+            >
+              A
+            </div>
+            <div
+              class="absolute w-14 h-14 rounded-full bg-brand-red flex items-center justify-center text-white shadow-xl group-hover:scale-110 transition duration-300"
+            >
+              <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M4.5 3.5v13l11-6.5-11-6.5z" />
+              </svg>
+            </div>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-gray-900 text-base mb-2">Сергей Васильев</h4>
+            <p class="text-xs text-gray-500 leading-relaxed italic mb-4">
+              «Я нахожусь в салоне АЛЬТЕРА, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам
+              гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...»
+            </p>
+            <button
+              onclick="openVideoModal('Сергей Васильев')"
+              class="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold text-xs py-2.5 rounded-lg flex items-center justify-center gap-1 transition"
+            >
+              <span>Подробнее</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Video Review 3 -->
+        <div class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-sm flex flex-col justify-between">
+          <div
+            onclick="openVideoModal('Сергей Васильев')"
+            class="bg-brand-dark h-56 relative flex items-center justify-center cursor-pointer group overflow-hidden"
+          >
+            <div
+              class="w-24 h-24 rounded-full border-4 border-gray-700/50 flex items-center justify-center text-gray-700/50 font-black text-4xl"
+            >
+              A
+            </div>
+            <div
+              class="absolute w-14 h-14 rounded-full bg-brand-red flex items-center justify-center text-white shadow-xl group-hover:scale-110 transition duration-300"
+            >
+              <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M4.5 3.5v13l11-6.5-11-6.5z" />
+              </svg>
+            </div>
+          </div>
+          <div class="p-6">
+            <h4 class="font-bold text-gray-900 text-base mb-2">Сергей Васильев</h4>
+            <p class="text-xs text-gray-500 leading-relaxed italic mb-4">
+              «Я нахожусь в салоне АЛЬТЕРА, всем советую, хороший коллектив, добрые люди, приветствуют, это не обман, вам
+              гарантия 100 % точно, чисто от меня, приезжайте! Мы приехали приобрести автомобиль в салон ALTERA...»
+            </p>
+            <button
+              onclick="openVideoModal('Сергей Васильев')"
+              class="w-full bg-gray-100 hover:bg-gray-200 text-gray-700 font-semibold text-xs py-2.5 rounded-lg flex items-center justify-center gap-1 transition"
+            >
+              <span>Подробнее</span>
+              <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 14. SECTION: "О КОМПАНИИ" ==================== -->
+    <section id="about" class="max-w-site mx-auto px-4 py-12">
+      <div class="text-center max-w-3xl mx-auto mb-8">
+        <h2 class="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 tracking-tight mb-4">О компании</h2>
+        <p class="text-sm sm:text-base text-gray-600 leading-relaxed">
+          Мы располагаем огромной торговой площадкой более 5000 квадратных метров, у нас в наличии не менее 200
+          автомобилей как отечественного, так и иностранного производства. В штате автосалона «Альтера» работают
+          настоящие профессионалы, которые знают особенности каждого конкретного автомобиля.
+        </p>
+      </div>
+
+      <!-- Large Video Presentation Banner with Staff -->
+      <div
+        onclick="openVideoModal('О компании ABC AUTO')"
+        class="relative rounded-3xl overflow-hidden shadow-2xl h-80 sm:h-96 md:h-[480px] cursor-pointer group flex items-center justify-center"
+      >
+        <img
+          src="images/about-team.jpg"
+          alt="Команда автосалона ABC AUTO"
+          class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition duration-700"
+        />
+        <div class="absolute inset-0 bg-black/25 group-hover:bg-black/15 transition duration-500"></div>
+
+        <!-- Glowing Red Play Button -->
+        <div
+          class="relative z-10 w-20 h-20 md:w-24 md:h-24 rounded-full bg-brand-red flex items-center justify-center text-white shadow-2xl group-hover:scale-115 transition duration-300 ring-8 ring-white/30"
+        >
+          <svg class="w-8 h-8 md:w-10 md:h-10 ml-1.5" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M4.5 3.5v13l11-6.5-11-6.5z" />
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 15. SECTION: "БЛОГ" ==================== -->
+    <section class="max-w-site mx-auto px-4 py-10">
+      <div class="flex items-center justify-between mb-6">
+        <div class="flex items-center gap-3">
+          <h2 class="text-2xl sm:text-3xl font-extrabold text-gray-900 tracking-tight">Блог</h2>
+          <span class="bg-brand-red text-white text-xs font-bold px-3 py-1 rounded-full">Все статьи</span>
+        </div>
+        <!-- Slider Arrows -->
+        <div class="flex items-center gap-2">
+          <button
+            class="w-9 h-9 rounded-lg border border-gray-300 bg-white hover:bg-gray-50 text-gray-700 flex items-center justify-center transition"
+            aria-label="Назад"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M15 19l-7-7 7-7" />
+            </svg>
+          </button>
+          <button
+            class="w-9 h-9 rounded-lg bg-brand-red hover:bg-brand-redHover text-white flex items-center justify-center transition"
+            aria-label="Вперед"
+          >
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M9 5l7 7-7 7" />
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <!-- Blog Card 1 -->
+        <article class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-xs hover:shadow-md transition group">
+          <div class="h-44 overflow-hidden relative">
+            <img
+              src="images/blog-car.jpg"
+              alt="Тест Skoda Karoq Scout"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            />
+          </div>
+          <div class="p-5">
+            <span class="text-xs text-gray-400 block mb-2 font-medium">22 сентября</span>
+            <h3 class="font-bold text-gray-900 text-sm leading-snug group-hover:text-brand-red transition">
+              Тест Skoda Karoq Scout – городской хомяк или настоящий скаут
+            </h3>
+          </div>
+        </article>
+
+        <!-- Blog Card 2 -->
+        <article class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-xs hover:shadow-md transition group">
+          <div class="h-44 overflow-hidden relative">
+            <img
+              src="images/blog-car.jpg"
+              alt="Тест Skoda Karoq Scout"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            />
+          </div>
+          <div class="p-5">
+            <span class="text-xs text-gray-400 block mb-2 font-medium">22 сентября</span>
+            <h3 class="font-bold text-gray-900 text-sm leading-snug group-hover:text-brand-red transition">
+              Тест Skoda Karoq Scout – городской хомяк или настоящий скаут
+            </h3>
+          </div>
+        </article>
+
+        <!-- Blog Card 3 -->
+        <article class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-xs hover:shadow-md transition group">
+          <div class="h-44 overflow-hidden relative">
+            <img
+              src="images/blog-car.jpg"
+              alt="Тест Skoda Karoq Scout"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            />
+          </div>
+          <div class="p-5">
+            <span class="text-xs text-gray-400 block mb-2 font-medium">22 сентября</span>
+            <h3 class="font-bold text-gray-900 text-sm leading-snug group-hover:text-brand-red transition">
+              Тест Skoda Karoq Scout – городской хомяк или настоящий скаут
+            </h3>
+          </div>
+        </article>
+
+        <!-- Blog Card 4 -->
+        <article class="bg-white rounded-2xl border border-gray-200 overflow-hidden shadow-xs hover:shadow-md transition group">
+          <div class="h-44 overflow-hidden relative">
+            <img
+              src="images/blog-car.jpg"
+              alt="Тест Skoda Karoq Scout"
+              class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+            />
+          </div>
+          <div class="p-5">
+            <span class="text-xs text-gray-400 block mb-2 font-medium">22 сентября</span>
+            <h3 class="font-bold text-gray-900 text-sm leading-snug group-hover:text-brand-red transition">
+              Тест Skoda Karoq Scout – городской хомяк или настоящий скаут
+            </h3>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ==================== 16. SECTION: "ОБ АВТОСАЛОНЕ АВС" (SEO / TABS) ==================== -->
+    <section class="max-w-site mx-auto px-4 py-10">
+      <!-- Tabs -->
+      <div class="flex items-center gap-8 border-b border-gray-200 pb-3 text-sm font-bold">
+        <button
+          onclick="switchSeoTab('tab1', this)"
+          class="seo-tab text-brand-red border-b-2 border-brand-red pb-3 -mb-3.5 transition"
+        >
+          Автосалон
+        </button>
+        <button
+          onclick="switchSeoTab('tab2', this)"
+          class="seo-tab text-gray-500 hover:text-gray-900 pb-3 -mb-3.5 transition"
+        >
+          Трейд-ин
+        </button>
+        <button
+          onclick="switchSeoTab('tab3', this)"
+          class="seo-tab text-gray-500 hover:text-gray-900 pb-3 -mb-3.5 transition"
+        >
+          Покупка
+        </button>
+      </div>
+
+      <!-- Tab 1 Content -->
+      <div id="tab1" class="seo-content mt-6">
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Об автосалоне АВС</h3>
+        <p class="text-xs sm:text-sm text-gray-500 leading-relaxed text-justify">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse pulvinar auctor tellus, id volutpat dui
+          dictum vitae. Sed eu mauris nisi. Maecenas quis sollicitudin dolor, eget molestie dolor. Vivamus sed magna
+          euismod, iaculis eros vitae, vehicula justo. Ut id consequat risus, vitae accumsan ligula. Proin egestas odio
+          sit amet laoreet vulputate. Cras vestibulum lacus vestibulum ipsum facilisis luctus. Pellentesque id laoreet
+          nisi, rhoncus nec sem. Phasellus et mollis magna, in bibendum massa. Praesent malesuada sit amet nibh ut
+          vestibulum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla iaculis a orci sit amet
+          iaculis. Nulla in magna posuere nunc pharetra faucibus. Phasellus id enim libero.
+        </p>
+      </div>
+
+      <!-- Tab 2 Content -->
+      <div id="tab2" class="seo-content mt-6 hidden">
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Программа Trade-in</h3>
+        <p class="text-xs sm:text-sm text-gray-500 leading-relaxed text-justify">
+          Выгодный обмен вашего старого автомобиля на новый с дополнительной скидкой до 150 000 рублей. Быстрая
+          диагностика за 30 минут, прозрачная рыночная оценка и моментальное зачисление средств в качестве первого взноса
+          по кредиту или покупке за наличный расчет.
+        </p>
+      </div>
+
+      <!-- Tab 3 Content -->
+      <div id="tab3" class="seo-content mt-6 hidden">
+        <h3 class="text-xl font-bold text-gray-900 mb-3">Покупка автомобиля в ABC AUTO</h3>
+        <p class="text-xs sm:text-sm text-gray-500 leading-relaxed text-justify">
+          Полный комплекс услуг по оформлению сделки за один визит. Постановка на учёт в ГИБДД, оформление полисов ОСАГО
+          и КАСКО на самых выгодных условиях, тест-драйв понравившейся модели и персональный менеджер на всех этапах.
+        </p>
+      </div>
+    </section>
+
+    <!-- ==================== 17. SECTION: MAP & FLOATING CONTACT CARD ==================== -->
+    <section id="contacts" class="w-full relative mt-12 min-h-[500px] flex items-center">
+      <!-- Map Background Image -->
+      <div class="absolute inset-0 w-full h-full overflow-hidden">
+        <img
+          src="images/map-bg.jpg"
+          alt="Карта проезда: Россия, Москва, 38КМ МКАД, 6Бс1"
+          class="w-full h-full object-cover object-center"
+        />
+        <div class="absolute inset-0 bg-black/5"></div>
+      </div>
+
+      <!-- Centered Map Pin Visual Overlay -->
+      <div
+        class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-10 pointer-events-none hidden md:flex items-center gap-2"
+      >
+        <div
+          class="w-12 h-12 rounded-full bg-brand-red text-white flex items-center justify-center font-black text-xl shadow-2xl ring-4 ring-white animate-bounce"
+        >
+          A
+        </div>
+        <div class="bg-white/95 px-3 py-1.5 rounded-lg shadow-lg text-xs font-bold text-gray-900 border border-gray-200">
+          МКАД, 38-й километр, 6Б...
+        </div>
+      </div>
+
+      <!-- Floating Contact Card -->
+      <div class="relative z-20 max-w-site mx-auto px-4 w-full flex justify-end py-12">
+        <div
+          class="bg-white rounded-3xl border border-gray-200/90 shadow-2xl p-6 sm:p-8 max-w-md w-full backdrop-blur-sm bg-white/98"
+        >
+          <div class="flex flex-col gap-4 mb-6">
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-red-50 text-brand-red flex items-center justify-center">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"
+                  />
+                </svg>
+              </div>
+              <div>
+                <a href="tel:+78005519431" class="text-base font-extrabold text-gray-900 block hover:text-brand-red"
+                  >+7 (800) 551-94-31</a
+                >
+                <a href="tel:+74952921867" class="text-xs text-gray-500 block hover:text-gray-800"
+                  >+7 (495) 292-18-67</a
+                >
+              </div>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-gray-100 text-gray-600 flex items-center justify-center">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" stroke-width="2" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2" />
+                </svg>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold text-gray-800">Ежедневно: с 08:00 до 21:00</span>
+            </div>
+
+            <div class="flex items-center gap-3">
+              <div class="w-10 h-10 rounded-full bg-gray-100 text-brand-red flex items-center justify-center">
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </div>
+              <span class="text-xs sm:text-sm font-semibold text-gray-800">Россия, Москва, 38КМ МКАД, 6Бс1</span>
+            </div>
+          </div>
+
+          <button
+            onclick="openModal('routeModal')"
+            class="w-full bg-brand-red hover:bg-brand-redHover text-white font-extrabold uppercase text-xs sm:text-sm tracking-wider py-4 rounded-xl shadow-md transition active:scale-95"
+          >
+            Как до нас добраться
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 18. FOOTER ==================== -->
+    <footer class="w-full bg-brand-dark text-gray-300">
+      <!-- Top Category Links Bar in Footer -->
+      <div class="border-b border-gray-800 py-4 bg-[#181818]">
+        <div class="max-w-site mx-auto px-4 flex flex-wrap items-center justify-between gap-4 text-xs font-bold text-gray-300">
+          <a href="#catalog" class="hover:text-white transition">КАТАЛОГ АВТО</a>
+          <a href="#catalog" class="hover:text-white transition">АВТО С ПРОБЕГОМ</a>
+          <a href="#credit" class="hover:text-white transition">КРЕДИТ И РАССРОЧКА</a>
+          <a href="#offers" class="hover:text-white transition">СПЕЦПРЕДЛОЖЕНИЯ</a>
+          <a href="#credit" class="hover:text-white transition">ТАКСИ В КРЕДИТ</a>
+        </div>
+      </div>
+
+      <!-- Main Footer Columns -->
+      <div class="max-w-site mx-auto px-4 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 text-xs leading-relaxed">
+          <!-- Col 1: Автомобили по маркам (Col 1-5) -->
+          <div class="lg:col-span-5">
+            <h4 class="text-sm font-extrabold text-white uppercase tracking-wider mb-4 flex items-center justify-between">
+              <span>Каталог авто</span>
+              <a href="#catalog" class="text-brand-red hover:underline normal-case text-xs">Подробнее</a>
+            </h4>
+            <div class="grid grid-cols-3 sm:grid-cols-4 gap-y-2 gap-x-2 text-gray-400">
+              <a href="#catalog" class="hover:text-white transition">Kia</a>
+              <a href="#catalog" class="hover:text-white transition">Hyundai</a>
+              <a href="#catalog" class="hover:text-white transition">Skoda</a>
+              <a href="#catalog" class="hover:text-white transition">Volkswagen</a>
+              <a href="#catalog" class="hover:text-white transition">Toyota</a>
+              <a href="#catalog" class="hover:text-white transition">Brilliance</a>
+              <a href="#catalog" class="hover:text-white transition">Changan</a>
+              <a href="#catalog" class="hover:text-white transition">Chery</a>
+              <a href="#catalog" class="hover:text-white transition">CheryExeed</a>
+              <a href="#catalog" class="hover:text-white transition">Chevrolet</a>
+              <a href="#catalog" class="hover:text-white transition">Citroen</a>
+              <a href="#catalog" class="hover:text-white transition">Datsun</a>
+              <a href="#catalog" class="hover:text-white transition">Dongfeng</a>
+              <a href="#catalog" class="hover:text-white transition">DW Hower</a>
+              <a href="#catalog" class="hover:text-white transition">FAW</a>
+              <a href="#catalog" class="hover:text-white transition">Ford</a>
+              <a href="#catalog" class="hover:text-white transition">Foton</a>
+              <a href="#catalog" class="hover:text-white transition">Geely</a>
+              <a href="#catalog" class="hover:text-white transition">Great Wall</a>
+              <a href="#catalog" class="hover:text-white transition">Haima</a>
+              <a href="#catalog" class="hover:text-white transition">Haval</a>
+              <a href="#catalog" class="hover:text-white transition">Honda</a>
+              <a href="#catalog" class="hover:text-white transition">JAC</a>
+              <a href="#catalog" class="hover:text-white transition">Lada</a>
+              <a href="#catalog" class="hover:text-white transition">Lifan</a>
+              <a href="#catalog" class="hover:text-white transition">Mazda</a>
+              <a href="#catalog" class="hover:text-white transition">Mitsubishi</a>
+              <a href="#catalog" class="hover:text-white transition">Nissan</a>
+              <a href="#catalog" class="hover:text-white transition">Opel</a>
+              <a href="#catalog" class="hover:text-white transition">Peugeot</a>
+              <a href="#catalog" class="hover:text-white transition">Ravon</a>
+              <a href="#catalog" class="hover:text-white transition">Renault</a>
+              <a href="#catalog" class="hover:text-white transition">SsangYong</a>
+              <a href="#catalog" class="hover:text-white transition">Suzuki</a>
+              <a href="#catalog" class="hover:text-white transition">UAZ</a>
+              <a href="#catalog" class="hover:text-white transition">Zotye</a>
+            </div>
+          </div>
+
+          <!-- Col 2: Карта сайта (Col 6-7) -->
+          <div class="lg:col-span-2">
+            <h4 class="text-sm font-extrabold text-white uppercase tracking-wider mb-4">Карта сайта</h4>
+            <ul class="flex flex-col gap-2 text-gray-400">
+              <li><a href="#about" class="hover:text-white transition">О компании</a></li>
+              <li><a href="#reviews" class="hover:text-white transition">Отзывы клиентов</a></li>
+              <li><a href="#catalog" class="hover:text-white transition">Тест-драйв</a></li>
+              <li><a href="#credit" class="hover:text-white transition">Trade-in (Трейд-ин)</a></li>
+              <li><a href="#services" class="hover:text-white transition">Техцентр</a></li>
+              <li><a href="#contacts" class="hover:text-white transition">Контакты</a></li>
+              <li><a href="#contacts" class="hover:text-white transition">Схема проезда</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Кредит и рассрочка (Col 8-9) -->
+          <div class="lg:col-span-2">
+            <h4 class="text-sm font-extrabold text-white uppercase tracking-wider mb-4">Кредит и рассрочка</h4>
+            <ul class="flex flex-col gap-2 text-gray-400">
+              <li><a href="#credit" class="hover:text-white transition">Экспресс-кредит</a></li>
+              <li><a href="#credit" class="hover:text-white transition">Семейный автомобиль</a></li>
+              <li><a href="#credit" class="hover:text-white transition">Первый автомобиль</a></li>
+              <li><a href="#credit" class="hover:text-white transition">Работникам медицины</a></li>
+              <li><a href="#credit" class="hover:text-white transition">Рассрочка 0%</a></li>
+              <li><a href="#credit" class="hover:text-white transition">Госпрограммы</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Контакты & Рейтинг (Col 10-12) -->
+          <div class="lg:col-span-3">
+            <h4 class="text-sm font-extrabold text-white uppercase tracking-wider mb-4">Контакты</h4>
+            <div class="flex flex-col gap-3 text-gray-400 mb-6">
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-brand-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"
+                  />
+                </svg>
+                <a href="tel:+78005519431" class="text-white font-bold hover:text-brand-red transition"
+                  >+7 (800) 551-94-31</a
+                >
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-500 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 4V3z"
+                  />
+                </svg>
+                <a href="tel:+74952921867" class="hover:text-white transition">+7 (495) 292-18-67</a>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-gray-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="10" stroke-width="2" />
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6v6l4 2" />
+                </svg>
+                <span>Ежедневно с 08:00 до 21:00</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg class="w-4 h-4 text-brand-red flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                  <path
+                    fill-rule="evenodd"
+                    d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+                <span>Россия, Москва, 38КМ МКАД, 6Бс1</span>
+              </div>
+              <a href="#contacts" class="text-brand-red hover:underline pl-6">Схема проезда</a>
+            </div>
+
+            <!-- City Selector Dropdown -->
+            <div class="relative">
+              <select
+                class="w-full bg-[#181818] border border-gray-700 rounded-lg px-4 py-2.5 text-xs text-white appearance-none focus:outline-none focus:border-brand-red"
+              >
+                <option value="msk">Москва</option>
+                <option value="spb">Санкт-Петербург</option>
+                <option value="kzn">Казань</option>
+              </select>
+              <svg
+                class="w-4 h-4 text-gray-400 absolute right-3 top-1/2 -translate-y-1/2 pointer-events-none"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <!-- Middle Copyright & Legal & Rating Row -->
+        <div class="border-t border-gray-800 mt-10 pt-8 flex flex-col md:flex-row items-center justify-between gap-6">
+          <div class="text-xs text-gray-500 text-center md:text-left">
+            <p class="font-bold text-gray-400">© 2021 Автосалон "ABC AUTO". Официальный дилер</p>
+            <div class="flex flex-wrap gap-4 mt-2 justify-center md:justify-start">
+              <a href="#" class="hover:text-gray-300 underline">Политика конфиденциальности</a>
+              <a href="#" class="hover:text-gray-300 underline">Пользовательское соглашение</a>
+            </div>
+            <p class="mt-3 text-[11px] text-gray-600 max-w-xl">
+              Обращаем Ваше внимание на то, что данный интернет-сайт носит исключительно информационный характер и ни
+              при каких условиях не является публичной офертой, определяемой положениями Статьи 437 Гражданского кодекса
+              Российской Федерации.
+            </p>
+          </div>
+
+          <!-- Yandex Rating Badge -->
+          <div
+            class="bg-white rounded-xl p-3 flex items-center gap-3 shadow-md text-gray-900 border border-gray-200 flex-shrink-0"
+          >
+            <span class="w-8 h-8 rounded-full bg-red-600 text-white font-black flex items-center justify-center text-base"
+              >Я</span
+            >
+            <div>
+              <div class="flex items-center gap-2">
+                <span class="text-lg font-black text-gray-900">5,0</span>
+                <span class="text-xs text-gray-400">/ 5</span>
+                <span class="text-yellow-400 text-xs">★★★★★</span>
+              </div>
+              <span class="text-[10px] text-gray-500 font-semibold block">Рейтинг организации в Яндексе</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom SEO Models Directory -->
+        <div class="border-t border-gray-800/60 mt-8 pt-8 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 text-[11px] text-gray-500">
+          <div>
+            <h5 class="font-bold text-gray-400 uppercase mb-2">KIA</h5>
+            <p class="leading-relaxed">
+              Picanto (2020), Sorento 2019, Sorento Prime, Sportage New, Rio 2019, Pro Ceed, Mohave 2019, Rio X-Line,
+              Stringer (2020), Optima NEW, Ceed 2020, Cerato 2020, K900, Ceed SW 2020, Soul, Seltos, XCeed, K5, Rio,
+              Sorento, Mohave, Rio X, Carnival, Picanto, Stinger, Cerato, Ceed, Ceed SW
+            </p>
+          </div>
+          <div>
+            <h5 class="font-bold text-gray-400 uppercase mb-2">HYUNDAI</h5>
+            <p class="leading-relaxed">
+              i30, Solaris 2019, Santa Fe 2020, Tucson 2020, H1, Elantra 2019, Sonata, Solaris, Creta 2020, Tucson N
+              Line, Elantra, Palisade, Santa Fe, Tucson, Creta
+            </p>
+          </div>
+          <div>
+            <h5 class="font-bold text-gray-400 uppercase mb-2">SKODA</h5>
+            <p class="leading-relaxed">
+              Octavia 2019, Kodiaq 2020, Rapid 2019, Kodiaq Scout, Kodiaq Sportline, Superb New, Superb Combi New,
+              Superb Sportline, Karoq, Rapid, Octavia A8, Kodiaq
+            </p>
+          </div>
+          <div>
+            <h5 class="font-bold text-gray-400 uppercase mb-2">VOLKSWAGEN</h5>
+            <p class="leading-relaxed">
+              Golf (2020), Polo 2019, Passat 2019, Tiguan 2019, Jetta 2019, Touareg, Teramont (2020), Amarok, Passat,
+              Jetta, Polo, Arteon
+            </p>
+          </div>
+          <div>
+            <h5 class="font-bold text-gray-400 uppercase mb-2">АВТО ПОД ТАКСИ</h5>
+            <p class="leading-relaxed">
+              Hyundai Solaris, Skoda Octavia, Volkswagen Polo, Hyundai Solaris, Skoda Octavia, Volkswagen Polo, Hyundai
+              Solaris, Skoda Octavia, Volkswagen Polo, Hyundai Solaris, Skoda Octavia, Volkswagen Polo.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- ==================== MODALS ==================== -->
+    <!-- Universal Callback / Lead Modal -->
+    <div id="modalOverlay" class="fixed inset-0 bg-black/60 z-50 hidden flex items-center justify-center p-4">
+      <div class="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl relative">
+        <button onclick="closeModal()" class="absolute top-5 right-5 text-gray-400 hover:text-gray-700">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+
+        <h3 id="modalTitle" class="text-xl sm:text-2xl font-black text-gray-900 mb-2">Заказать звонок</h3>
+        <p id="modalSubtitle" class="text-xs sm:text-sm text-gray-500 mb-6">
+          Оставьте номер телефона, и наш менеджер свяжется с вами в течение 5 минут.
+        </p>
+
+        <form onsubmit="handleFormSubmit(event, 'Модальная форма')" class="flex flex-col gap-4">
+          <input
+            type="text"
+            required
+            placeholder="Ваше имя"
+            class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-800 font-medium focus:outline-none focus:ring-2 focus:ring-brand-red"
+          />
+          <input
+            type="tel"
+            required
+            placeholder="+7 (___) ___-__-__"
+            class="w-full bg-gray-50 border border-gray-200 rounded-xl px-4 py-3.5 text-sm text-gray-800 font-medium focus:outline-none focus:ring-2 focus:ring-brand-red"
+          />
+          <button
+            type="submit"
+            class="w-full bg-brand-red hover:bg-brand-redHover text-white font-extrabold uppercase text-xs sm:text-sm tracking-wider py-4 rounded-xl shadow-md transition active:scale-95"
+          >
+            Отправить заявку
+          </button>
+        </form>
+        <p class="text-[10px] text-gray-400 text-center mt-3">
+          Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных
+        </p>
+      </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="fixed inset-0 bg-black/80 z-50 hidden flex items-center justify-center p-4">
+      <div class="bg-brand-dark rounded-3xl overflow-hidden max-w-3xl w-full shadow-2xl relative text-white">
+        <button onclick="closeVideoModal()" class="absolute top-4 right-4 z-20 text-gray-400 hover:text-white p-2">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+        <div class="p-6">
+          <h3 id="videoModalTitle" class="text-lg font-bold mb-4">Видео отзыв клиента</h3>
+          <div class="aspect-video bg-black rounded-xl overflow-hidden flex items-center justify-center relative">
+            <div class="text-center p-8">
+              <div
+                class="w-16 h-16 rounded-full bg-brand-red flex items-center justify-center mx-auto mb-4 animate-pulse"
+              >
+                <svg class="w-8 h-8 text-white ml-1" fill="currentColor" viewBox="0 0 20 20">
+                  <path d="M4.5 3.5v13l11-6.5-11-6.5z" />
+                </svg>
+              </div>
+              <p class="text-sm font-semibold text-gray-300">Демонстрационный видеоролик автосалона ABC AUTO</p>
+              <span class="text-xs text-gray-500 mt-2 block">Качество: 1080p Full HD</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Notification Toast -->
+    <div
+      id="toast"
+      class="fixed bottom-6 right-6 bg-brand-dark text-white border-l-4 border-brand-red px-6 py-4 rounded-xl shadow-2xl z-50 transform translate-y-32 transition-transform duration-300 text-sm font-semibold flex items-center gap-3"
+    >
+      <svg class="w-5 h-5 text-green-400" fill="currentColor" viewBox="0 0 20 20">
+        <path
+          fill-rule="evenodd"
+          d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+          clip-rule="evenodd"
+        />
+      </svg>
+      <span id="toastMessage">Заявка успешно отправлена!</span>
+    </div>
+
+    <!-- ==================== JAVASCRIPT ==================== -->
+    <script>
+      // 1. Mobile Drawer Toggle
+      const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+      const mobileDrawer = document.getElementById('mobileDrawer');
+      const drawerOverlay = document.getElementById('drawerOverlay');
+      const closeDrawerBtn = document.getElementById('closeDrawerBtn');
+
+      function openDrawer() {
+        mobileDrawer.classList.remove('-translate-x-full');
+        drawerOverlay.classList.remove('hidden');
+        document.body.classList.add('overflow-hidden');
+      }
+
+      function closeDrawer() {
+        mobileDrawer.classList.add('-translate-x-full');
+        drawerOverlay.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      }
+
+      if (mobileMenuBtn) mobileMenuBtn.addEventListener('click', openDrawer);
+      if (closeDrawerBtn) closeDrawerBtn.addEventListener('click', closeDrawer);
+      if (drawerOverlay) drawerOverlay.addEventListener('click', closeDrawer);
+
+      // Close drawer on internal link click
+      document.querySelectorAll('#mobileDrawer a').forEach((a) => {
+        a.addEventListener('click', closeDrawer);
+      });
+
+      // 2. Favorite Toggle Button
+      let favoritesCount = 10;
+      function toggleFavorite(btn) {
+        const svg = btn.querySelector('.heart-icon');
+        const countBadge = document.getElementById('favCount');
+        if (svg.getAttribute('fill') === 'currentColor') {
+          svg.setAttribute('fill', 'none');
+          svg.classList.remove('text-brand-red');
+          favoritesCount = Math.max(0, favoritesCount - 1);
+          showToast('Удалено из избранного');
+        } else {
+          svg.setAttribute('fill', 'currentColor');
+          svg.classList.add('text-brand-red');
+          favoritesCount += 1;
+          showToast('Добавлено в избранное');
+        }
+        if (countBadge) countBadge.textContent = favoritesCount;
+      }
+
+      // 3. Quick Filter Price Range
+      function updatePriceFilter(val) {
+        const display = document.getElementById('priceRangeDisplay');
+        const num = parseInt(val);
+        const mln = (num / 1000000).toFixed(1).replace('.0', '');
+        if (display) {
+          display.textContent = '0 - ' + mln + ' млн ₽';
+        }
+      }
+
+      // 4. Loan Calculator
+      function calculateLoan() {
+        const amount = parseInt(document.getElementById('loanAmountInput').value) || 0;
+        const months = parseInt(document.getElementById('loanTermInput').value) || 12;
+        const downPayment = parseInt(document.getElementById('downPaymentInput').value) || 0;
+
+        document.getElementById('loanAmountDisplay').textContent = amount.toLocaleString('ru-RU') + ' ₽';
+        document.getElementById('loanTermDisplay').textContent = months + ' мес.';
+
+        const principal = Math.max(0, amount - downPayment);
+        const annualRate = 0.089; // 8.9% promo rate
+        const monthlyRate = annualRate / 12;
+        let monthlyPayment = 0;
+
+        if (principal > 0 && months > 0) {
+          monthlyPayment = Math.round(
+            (principal * (monthlyRate * Math.pow(1 + monthlyRate, months))) /
+              (Math.pow(1 + monthlyRate, months) - 1)
+          );
+        }
+
+        const badge = document.getElementById('monthlyPaymentBadge');
+        if (badge) {
+          badge.textContent = 'Платёж: ~' + monthlyPayment.toLocaleString('ru-RU') + ' ₽/мес.';
+        }
+      }
+
+      // 5. SEO Article Tabs
+      function switchSeoTab(tabId, btn) {
+        document.querySelectorAll('.seo-content').forEach((el) => el.classList.add('hidden'));
+        document.querySelectorAll('.seo-tab').forEach((el) => {
+          el.classList.remove('text-brand-red', 'border-b-2', 'border-brand-red');
+          el.classList.add('text-gray-500');
+        });
+
+        const target = document.getElementById(tabId);
+        if (target) target.classList.remove('hidden');
+
+        btn.classList.add('text-brand-red', 'border-b-2', 'border-brand-red');
+        btn.classList.remove('text-gray-500');
+      }
+
+      // 6. Modals
+      function openModal(type, title) {
+        const modal = document.getElementById('modalOverlay');
+        const titleEl = document.getElementById('modalTitle');
+        const subtitleEl = document.getElementById('modalSubtitle');
+
+        if (title) {
+          titleEl.textContent = title;
+          subtitleEl.textContent = 'Оставьте заявку на автомобиль и получите подарок!';
+        } else if (type === 'callbackModal') {
+          titleEl.textContent = 'Обратный звонок';
+          subtitleEl.textContent = 'Перезвоним вам в течение 5 минут и ответим на все вопросы.';
+        } else if (type === 'routeModal') {
+          titleEl.textContent = 'Схема проезда';
+          subtitleEl.textContent = 'Отправим точный маршрут и парковочный талон на ваш номер.';
+        }
+
+        modal.classList.remove('hidden');
+        document.body.classList.add('overflow-hidden');
+      }
+
+      function closeModal() {
+        const modal = document.getElementById('modalOverlay');
+        modal.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      }
+
+      // Close modal on click outside
+      document.getElementById('modalOverlay')?.addEventListener('click', function (e) {
+        if (e.target === this) closeModal();
+      });
+
+      // Video Modal
+      function openVideoModal(title) {
+        const modal = document.getElementById('videoModal');
+        const titleEl = document.getElementById('videoModalTitle');
+        if (title) titleEl.textContent = 'Видео: ' + title;
+        modal.classList.remove('hidden');
+        document.body.classList.add('overflow-hidden');
+      }
+
+      function closeVideoModal() {
+        const modal = document.getElementById('videoModal');
+        modal.classList.add('hidden');
+        document.body.classList.remove('overflow-hidden');
+      }
+
+      document.getElementById('videoModal')?.addEventListener('click', function (e) {
+        if (e.target === this) closeVideoModal();
+      });
+
+      // 7. Toast & Form Handler
+      function showToast(msg) {
+        const toast = document.getElementById('toast');
+        const msgEl = document.getElementById('toastMessage');
+        if (msgEl) msgEl.textContent = msg;
+        toast.classList.remove('translate-y-32');
+        setTimeout(() => {
+          toast.classList.add('translate-y-32');
+        }, 3500);
+      }
+
+      function handleFormSubmit(e, actionName) {
+        e.preventDefault();
+        closeModal();
+        showToast('Спасибо! Мы свяжемся с вами в течение 5 минут.');
+        e.target.reset();
+      }
+
+      function loadMoreCars(btn) {
+        btn.innerHTML = '<span class="animate-spin inline-block mr-2">↻</span> Загрузка...';
+        setTimeout(() => {
+          btn.textContent = 'Все 73 автомобиля загружены';
+          btn.classList.replace('bg-brand-red', 'bg-gray-400');
+          btn.disabled = true;
+          showToast('Показаны все доступные автомобили в наличии');
+        }, 800);
+      }
+
+      // Initialize calculations on load
+      window.addEventListener('DOMContentLoaded', () => {
+        calculateLoan();
+      });
+    </script>
+  </body>
+</html>
